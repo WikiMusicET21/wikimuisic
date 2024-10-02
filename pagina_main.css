@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: auto;
+  }
+  body{
+    background-image: linear-gradient(#a02c2c, #5c1111);
+  }
+img{
+    position:absolute;
+    border-radius: 50%;
+    border: 1px solid black;
+    top: 15px;
+    left: 20px;
+    width: 70px;
+    height: 70px;
+    animation: girar 3s linear infinite;
+  }
+  @keyframes girar{
+    0%{
+      transform: rotateZ(360deg);
+    }
+    100%{
+      transform: rotateZ(0);
+    }
+  }
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #24303c;
+    
+}
+
+.user-options {
+    display: flex;
+    align-items: center;
+    
+}
+
+.botons{
+    color:#fff;
+    padding: 10px;
+    margin-right: 20px;
+    background: #24303c;
+    font-family:Arial;
+    border-color: #1f53c5;
+    border-radius: 16%;
+}
+
+.user-data {
+    width: 70px;
+    height: 70px;
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-image: url(perfil.png);
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left, .center, .right {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    width: 30%;
+
+    
+}
+
+.left {
+    background-color: #f9f9f9;
+}
+
+.center {
+    background-color: #e9e9e9;
+}
+
+.right {
+    background-color: #f1f1f1;
+}
+
+.center .artist-info, .center, .right .search-options {
+    margin-bottom: 20px;
+}
+
+.image-placeholder {
+    width: 100%;
+    height: 200px;
+    background-color: #ddd;
+    margin-top: 10px;
+
+}
+
+img2{
+    width: 70px;
+    height: 70px;
+}
