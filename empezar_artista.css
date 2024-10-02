@@ -1,0 +1,80 @@
+*  
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+  }
+  body{
+    background-image: linear-gradient(#a02c2c, #5c1111);
+  }
+
+.resaltar {
+    background-color: black;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV85x2epvjFVWF7Qlu4zL0nFg4PJb3bVseEg&s");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    
+}
+
+.texto {
+    width: 50%;
+    color: hsl(0, 0%, 100%);
+}
+
+.texto h1 {
+    font-size: 3em;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px hsl(0, 0%, 100%);
+    margin-bottom: 20px;
+}
+
+.texto p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.texto ul {
+    list-style: none;
+}
+
+.texto ul li {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.texto ul li::before {
+    content: "•";
+    color: red;
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.imagen {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+}
